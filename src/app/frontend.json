@@ -2,64 +2,51 @@
   {
     "name": "React",
     "state": "adopt",
-    "x": -10,
-    "y": 20,
     "description": "React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies."
   },
   {
     "name": "Next.js",
     "state": "adopt",
-    "x": 20,
-    "y": 30,
     "description": "Next.js is a React framework for production. It makes building fullstack React apps and sites a breeze and ships with built-in SSR."
   },
   {
     "name": "Tailwind CSS",
     "state": "adopt",
-    "x": 30,
-    "y": -40,
     "description": "Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override."
   },
   {
     "name": "Typescript",
     "state": "adopt",
-    "x": 40,
-    "y": -20,
     "description": "TypeScript is an open-source language which builds on JavaScript, one of the world’s most used tools, by adding static type definitions."
   },
   {
     "name": "Svelte",
     "state": "adopt",
-    "x": 70,
-    "y": 70,
     "description": "Svelte is a radical new approach to building user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the browser, Svelte shifts that work into a compile step that happens when you build your app."
   },
   {
     "name": "styled-components",
     "state": "hold",
-    "x": 450,
-    "y": 60,
     "description": "styled-components is the result of wondering how we could enhance CSS for styling React component systems. By focusing on a single use case we managed to optimize the experience for developers as well as the output for end users."
   },
   {
     "name": "redux",
     "state": "hold",
-    "x": 470,
-    "y": 80,
     "description": "Redux is a predictable state container for JavaScript apps. It helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test."
   },
   {
     "name": "HTMx",
     "state": "assess",
-    "x": 300,
-    "y": 100,
     "description": "HTMx is a javascript library that allows you to access AJAX, WebSockets and Server Sent Events directly in HTML, using attributes, so you can build modern user interfaces with the simplicity and power of hypertext."
   },
   {
     "name": "Google cloud functions",
     "state": "trial",
-    "x": 200,
-    "y": -200,
     "description": "Google Cloud Functions is a serverless execution environment for building and connecting cloud services. With Cloud Functions you write simple, single-purpose functions that are attached to events emitted from your cloud infrastructure and services. Your function is triggered when an event being watched is fired. Your code executes in a fully managed environment. There is no need to provision any infrastructure or worry about managing any servers."
+  },
+  {
+    "name": "jQuery",
+    "state": "avoid",
+    "description": "Jquery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers."
   }
 ]

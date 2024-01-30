@@ -2,29 +2,21 @@
   {
     "name": "Go",
     "state": "trial",
-    "x": 220,
-    "y": 180,
     "description": "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software."
   },
   {
     "name": "Rust",
     "state": "trial",
-    "x": 200,
-    "y": 200,
     "description": "Rust is a multi-paradigm programming language designed for performance and safety, especially safe concurrency. Rust is syntactically similar to C++, but can guarantee memory safety by using a borrow checker to validate references."
   },
   {
     "name": "Kotlin",
     "state": "adopt",
-    "x": 0,
-    "y": 60,
     "description": "Kotlin is a statically typed programming language that runs on the Java virtual machine and also can be compiled to JavaScript source code or use the LLVM compiler infrastructure. Its primary development is from a team of JetBrains programmers based in Saint Petersburg, Russia."
   },
   {
     "name": "Java",
     "state": "hold",
-    "x": 380,
-    "y": -300,
     "description": "Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible."
   }
 ]
