@@ -16,7 +16,7 @@ export default function Home() {
     const canvas = ref.current as HTMLCanvasElement;
     const ctx = canvas.getContext("2d")!;
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.font = "24px sans-serif";
+    ctx.font = `24px monospace`;
     ctx.fillStyle = "rgba(255,255,255,0.4)";
 
     rc.circle(600, 500, 300, {
@@ -37,13 +37,13 @@ export default function Home() {
     ctx.fillText("Hold", 550, 25);
     ctx.fillText("Avoid", 25, 25);
 
-    ctx.font = "12px sans-serif";
+    ctx.font = "12px monospace";
     ctx.fillStyle = "rgb(255,255,255)";
 
     techs.forEach((tech) => {
       const x = getXY(tech.state, 600);
-
       const y = getXY(tech.state, 500);
+
       rc.circle(x, y, 20, {
         fill: getColor(tech.state),
         fillWeight: 3,
@@ -69,7 +69,7 @@ export default function Home() {
           <li key={tech.name} className="flex gap-2 pb-2 max-w-prose">
             <TrafficLight state={tech.state} />
             <div className="flex flex-col gap-2">
-              <span>{tech.name}</span>
+              <span className="font-bold">{tech.name}</span>
               <span>{tech.description}</span>
             </div>
           </li>
