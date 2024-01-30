@@ -28,7 +28,7 @@ export default function Home() {
     });
     ctx.fillText("Trial", 550, 225);
     rc.circle(600, 500, 800, {
-      stroke: "rgba(255, 191, 0.4)",
+      stroke: "rgba(255, 191,0, 0.4)",
     });
     ctx.fillText("Assess", 550, 125);
     rc.circle(600, 500, 1000, {
@@ -58,6 +58,7 @@ export default function Home() {
       <select
         className="m-4 text-white bg-gray-900 p-2"
         onChange={(e) => setTechs(getTech(e.target.value))}
+        defaultValue="all"
       >
         <option value="frontend">Frontend</option>
         <option value="backend">Backend</option>
@@ -114,7 +115,7 @@ function getColor(state: string) {
     case "trial":
       return "rgba(8, 143, 143, 0.4)";
     case "assess":
-      return "rgba(255, 191, 0.4)";
+      return "rgba(255, 191,0, 0.4)";
     case "hold":
       return "rgba(250,128,114,0.4)";
     case "avoid":
