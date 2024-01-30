@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Terraform",
+    "state": "adopt",
+    "x": 20,
+    "y": 10,
+    "description": "Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently."
+  },
+  {
+    "name": "GCP",
+    "state": "adopt",
+    "x": -20,
+    "y": -20,
+    "description": "GCP is a cloud computing service by Google."
+  },
+  {
+    "name": "On prem",
+    "state": "hold",
+    "x": 390,
+    "y": 310,
+    "description": "On prem is our old server infrastructure."
+  }
+]
