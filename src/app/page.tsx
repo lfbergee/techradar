@@ -40,15 +40,21 @@ export default function Home() {
     ctx.font = "12px monospace";
     ctx.fillStyle = "rgb(255,255,255)";
 
+    let avoidCount = 0;
+
     techs.forEach((tech) => {
-      const x = getXY(tech.state, 600);
-      const y = getXY(tech.state, 500);
+      let x = getXY(tech.state, 600);
+      let y = getXY(tech.state, 500);
+      if (tech.state === "avoid") {
+        ++avoidCount;
+        y += avoidCount * 30;
+      }
 
       rc.circle(x, y, 20, {
         fill: getColor(tech.state),
         fillWeight: 3,
       });
-      ctx.fillText(tech.name, x + 10, y + 10);
+      ctx.fillText(tech.name, x + 10, y + 5);
     });
   }, [techs]);
 
@@ -138,7 +144,7 @@ function getXY(state: string, center: number): number {
     case "hold":
       return center + (random + 275) * positiveOrNegative;
     case "avoid":
-      return center + (random + 350) * positiveOrNegative;
+      return 20;
     default:
       return center;
   }

@@ -18,5 +18,10 @@
     "name": "Java",
     "state": "hold",
     "description": "Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible."
+  },
+  {
+    "name": "PHP",
+    "state": "avoid",
+    "description": "PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language."
   }
 ]
